@@ -1,0 +1,58 @@
+\documentclass[autodetect-engine, ja=standard, a4paper, 10pt]{bxjsarticle}
+
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{hyperref}
+
+\title{LuaLaTeX 論文テンプレート}
+\author{著者名}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+本原稿は, LaTeX Workshop環境における LuaLaTeX 論文執筆用のテンプレートです。
+日本語と英語の混在文書を美しく組み版することができます。
+\end{abstract}
+
+\section{はじめに}
+LuaLaTeXは, Luaスクリプトエンジンを内蔵したTeXエンジンであり, UTF-8に標準対応しています。
+従来のpLaTeXやupLaTeXと比較して, フォント指定の柔軟性や多言語対応に優れています。
+
+\section{提案手法}
+数式表現の例を示します。アインシュタインのエネルギーと質量の関係式は式(\ref{eq:einstein})の通りです。
+\begin{equation}
+    E = m c^2
+    \label{eq:einstein}
+\end{equation}
+
+また, 参考文献の引用例を示します。LaTeXに関する文献\cite{lamport1994latex}を参照してください。
+
+\section{実験と結果}
+表\ref{tab:example}に実験条件の例を示します。
+
+\begin{table}[htbp]
+    \centering
+    \caption{実験条件一覧}
+    \label{tab:example}
+    \begin{tabular}{ccc}
+        \toprule
+        項目 & パラメータ & 値 \\
+        \midrule
+        1 & 学習率 & 0.001 \\
+        2 & バッチサイズ & 32 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{おわりに}
+本テンプレートを活用して論文執筆をスムーズに進めてください。
+
+\bibliographystyle{plain}
+\bibliography{ref}
+
+\end{document}

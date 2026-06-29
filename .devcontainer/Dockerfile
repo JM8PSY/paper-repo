@@ -12,6 +12,8 @@ RUN apt-get update && \
     texlive-latex-extra \
     texlive-lang-japanese \
     texlive-bibtex-extra \
+    texlive-luatex \
+    texlive-fonts-recommended \
     latexmk \
     fonts-noto-cjk && \
     apt-get clean && \

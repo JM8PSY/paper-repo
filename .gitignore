@@ -1,0 +1,20 @@
+# LaTeX auxiliary files generated during compilation
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.xml
+
+# Compiled PDFs (optional, un-comment if you don't want to track PDFs in git)
+# *.pdf
