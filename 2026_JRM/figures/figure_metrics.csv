@@ -1,0 +1,11 @@
+target,metric,value,n
+acid,mae,0.089657,136
+acid,rmse,0.148432,136
+acid,r2,0.117130,136
+acid,bias,-0.022319,136
+acid,correlation,0.370717,136
+brix,mae,0.585955,136
+brix,rmse,0.839662,136
+brix,r2,0.228792,136
+brix,bias,-0.388626,136
+brix,correlation,0.843426,136
